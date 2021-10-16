@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# end of predefined github .gitignore for Python
+
+.idea
+.DS_Store
+**/*.iml
