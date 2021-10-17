@@ -81,9 +81,7 @@ if __name__ == "__main__":
     root = Node(1)
     root.print_tree()
     for level in range(1, 7):
-        start = 2 ** level
-        stop  = 2 ** (level + 1)
-        root.set_level([i for i in range(start, stop)])
+        root.set_level([i for i in range(2 ** level, 2 ** (level + 1))])
         print('=' * 50)
         root.print_tree()
     root.set_level([None, None, None, 'A'])
